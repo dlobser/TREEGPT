@@ -1,0 +1,47 @@
+# TREE has no build step: everything under src/, lib/ and test/ is source and
+# belongs in the repo. lib/litegraph.js is vendored on purpose — without it the
+# page will not load, since there is no npm install to restore it.
+
+# Generated meshes. These are large and reproducible from the graph that made
+# them; commit one deliberately with `git add -f` if a print is worth keeping.
+*.stl
+*.obj
+*.3mf
+*.gcode
+
+# Screen captures from the preview
+*.png
+*.jpg
+*.gif
+*.mp4
+!assets/**
+# The chatgptexamples gallery page shows these, so they ship with the site.
+# Its STLs (~220 MB) stay out under the mesh rule above.
+!chatgptexamples/*.png
+!chatgptexamples/previews/**
+
+# Local machine settings. .claude/launch.json is shared and stays tracked.
+.claude/settings.local.json
+
+# Tooling, if any ever arrives
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Python, from `python -m http.server`
+__pycache__/
+*.py[cod]
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.*.sw?
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

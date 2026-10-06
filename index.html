@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TREE — node-based branching sculptures</title>
+<link rel="stylesheet" href="lib/litegraph.css">
+<link rel="stylesheet" href="src/app/style.css">
+<!-- three and three/addons pinned to the same version so OrbitControls cannot drift -->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.186.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.0/examples/jsm/"
+  }
+}
+</script>
+<script src="lib/litegraph.js"></script>
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <span class="brand">TREE</span>
+    <select id="presets" title="Load an example graph"></select>
+    <button id="btn-new" title="Empty graph">New</button>
+    <button id="btn-save" title="Download graph as JSON">Save</button>
+    <button id="btn-load" title="Load a graph JSON">Load</button>
+    <input type="file" id="file-load" accept=".json,application/json" hidden>
+    <input type="file" id="file-lib" accept=".json,application/json" hidden>
+    <span class="sep"></span>
+    <button id="btn-play" title="Pause / play (space)">&#10074;&#10074;</button>
+    <label>speed <input id="speed" type="range" min="0" max="3" step="0.05" value="1" style="width:90px"></label>
+    <span class="spacer"></span>
+    <span id="stats"></span>
+    <button id="btn-help" title="Help">?</button>
+  </header>
+  <div id="main">
+    <div id="graphpane">
+      <canvas id="graphcanvas"></canvas>
+      <div id="palette"><div class="head"><span>Nodes</span><span class="tog">&#9662;</span></div><div class="body"></div></div>
+    </div>
+    <div id="splitter"></div>
+    <div id="preview">
+      <div id="viewport"></div>
+      <div id="previewbar">
+        <button id="btn-fit" title="Frame everything (f)">Fit</button>
+        <button id="btn-grid" title="Toggle grid" class="on">Grid</button>
+        <button id="btn-bg" title="Dark / light background">BG</button>
+        <button id="btn-sliders" title="Show sliders (h)">Sliders</button>
+        <button id="btn-max" title="Hide the graph">Max</button>
+        <button id="btn-full" title="Fullscreen preview">Full</button>
+        <button id="btn-obj" title="Export visible meshes as OBJ">OBJ</button>
+        <button id="btn-stl" title="Export visible meshes as STL">STL</button>
+      </div>
+      <div id="drawer">
+        <div class="drawer-title"><span>Sliders</span><button id="btn-drawer-close" title="Hide (h)">&times;</button></div>
+        <div id="drawer-list"></div>
+      </div>
+      <div id="toast"></div>
+    </div>
+  </div>
+  <div id="help" hidden>
+    <div class="card">
+      <button class="close" id="btn-help-close">close</button>
+      <h2>TREE</h2>
+      <p>Build branching structures with nodes, animate them with sliders, then turn them into printable meshes.</p>
+      <h3>Graph</h3>
+      <p>Double-click the canvas to search for a node, or use the palette. Drag from a slot to connect. Right-click a node for
+        options. Number widgets drag left and right; click one to type a value.</p>
+      <h3>Widgets and pins</h3>
+      <p>Every parameter starts as a widget on the node. Drop a link straight onto the widget row and it becomes an input pin,
+        so a Slider, an LFO or a field can drive it. Right-click a node and use <b>Inputs</b> to flip any parameter back and forth.</p>
+      <h3>Flow</h3>
+      <p><b>Root</b> makes trunks. <b>Branch</b> sprouts branches from the joints of whatever came before it, or from an explicit
+        <code>at</code> selection. <b>Select</b> picks joints of a branch set. <b>Rotate / Translate / Scale / Size</b> change the
+        selected joints. Finish with <b>Preview</b>, <b>Tubes</b> or <b>Isosurface</b>.</p>
+      <p>A transform with no selection plugged in applies to the branches made by the nearest upstream Root or Branch. Structure is
+        shared: every Branch node connected to the skeleton adds to it; the pose comes only from the transforms on the path to the output.</p>
+      <h3>Surfaces</h3>
+      <p><b>Loft</b> spans a surface across a set of branches (the ribs), as adjacent pairs or as one patch across the whole set.
+        <b>Warp</b> pushes the lofted points along the surface normal and the two surface directions with expressions over
+        <code>u v iu iv nu nv x y z r patch patches time</code>. <b>Curve Tubes</b> extrudes tubes along the lofted rows or columns,
+        which is how a veined membrane is made. <b>Surface</b> meshes the patches as a sheet, solid or open. Lofted curves can also go
+        straight into the Isosurface's <code>curves</code> input, which blobs the whole membrane and the branches into one mesh.</p>
+      <h3>Joint attributes</h3>
+      <p>A field is evaluated once per joint. Expressions may also use <code>sin cos abs noise(x,y,z) hash(n) clamp mix smoothstep</code>
+        and the inputs <code>a b c d</code>.</p>
+      <table class="attrs"><thead><tr><th>name</th><th>short</th><th>meaning</th></tr></thead><tbody id="attr-table"></tbody></table>
+      <h3>Reuse</h3>
+      <p>Select nodes and press <b>Save group</b> in the palette (or <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>s</kbd>) to store them as a
+        named preset. Click the preset to drop another copy into the graph, wired the same way. <b>Frame</b>
+        (<kbd>ctrl</kbd>+<kbd>g</kbd>) draws a titled box around a selection. Export and import the whole library as JSON.</p>
+      <h3>Keys</h3>
+      <p><kbd>h</kbd> sliders &nbsp; <kbd>f</kbd> fit view &nbsp; <kbd>space</kbd> pause &nbsp; <kbd>g</kbd> hide the graph &nbsp;
+        <kbd>ctrl</kbd>+<kbd>g</kbd> frame &nbsp; <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>s</kbd> save group</p>
+      <h3>Printing</h3>
+      <p><b>Tubes</b> gives one closed shell per branch with ball caps, fast enough to leave live. <b>Isosurface</b> unions
+        everything into a single watertight mesh, following the same smoothed curve the tubes use; it runs in a worker. Plug a mesh
+        into its <code>points</code> input and give it a <code>point radius</code> to shrink-wrap that geometry too, or lofted curves into
+        <code>curves</code> for a much cleaner result. Export OBJ or STL from the node or the preview bar, and set the export scale to
+        your units.</p>
+    </div>
+  </div>
+</div>
+<script type="module" src="src/app/main.js"></script>
+</body>
+</html>

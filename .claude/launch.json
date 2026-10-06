@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "tree-static",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["tools/serve.py", "--port", "8199"],
+      "port": 8199
+    }
+  ]
+}

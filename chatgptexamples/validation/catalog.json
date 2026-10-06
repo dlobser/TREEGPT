@@ -1,0 +1,1030 @@
+[
+  {
+    "name": "01-moonstone-magnolia",
+    "kind": "flowers",
+    "description": "Nine broad porcelain tepals in two cupped tiers; gently twisted ribs and a pollen crown.",
+    "color": "#dfd4ce",
+    "nodes": 54,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 6
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 3
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 107186,
+      "triangles": 214368,
+      "nonManifoldEdges": 0,
+      "components": [
+        214368
+      ],
+      "volume": 1990.0494896325642,
+      "bounds": [
+        -16.363765716552734,
+        -0.8414113521575928,
+        -12.096482276916504,
+        8.919388771057129,
+        44.88932800292969,
+        12.095605850219727
+      ]
+    }
+  },
+  {
+    "name": "02-tidal-lotus",
+    "kind": "flowers",
+    "description": "Three ascending whorls: spreading pads, cupped petals and upright inner spears.",
+    "color": "#dca5ae",
+    "nodes": 67,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 10
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 8
+      },
+      {
+        "title": "Petal whorl 3 · independent petals",
+        "patches": 6
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 172922,
+      "triangles": 345840,
+      "nonManifoldEdges": 0,
+      "components": [
+        345840
+      ],
+      "volume": 3102.951002296967,
+      "bounds": [
+        -19.932506561279297,
+        -0.8477587103843689,
+        -16.04665184020996,
+        13.396912574768066,
+        42.845741271972656,
+        16.03956413269043
+      ]
+    }
+  },
+  {
+    "name": "03-solar-gerbera",
+    "kind": "flowers",
+    "description": "Thirty slender ray petals around a dense sculptural disk, with alternating lengths.",
+    "color": "#dfae60",
+    "nodes": 54,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 18
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 12
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 156712,
+      "triangles": 313420,
+      "nonManifoldEdges": 0,
+      "components": [
+        313420
+      ],
+      "volume": 2202.2835806998833,
+      "bounds": [
+        -21.40735626220703,
+        -0.847582221031189,
+        -19.187389373779297,
+        17.22690200805664,
+        34.75302505493164,
+        19.18878746032715
+      ]
+    }
+  },
+  {
+    "name": "04-velvet-iris",
+    "kind": "flowers",
+    "description": "Three sweeping falls and three upright standards; rippled edges and a distinct six-part silhouette.",
+    "color": "#a6a0d6",
+    "nodes": 68,
+    "patches": [
+      {
+        "title": "Three falls · independent petals",
+        "patches": 3
+      },
+      {
+        "title": "Three standards · independent petals",
+        "patches": 3
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Upper foliage · independent petals",
+        "patches": 1
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 101984,
+      "triangles": 203964,
+      "nonManifoldEdges": 0,
+      "components": [
+        203964
+      ],
+      "volume": 1938.7779768809603,
+      "bounds": [
+        -22.722169876098633,
+        -0.8460606932640076,
+        -19.92814826965332,
+        13.001750946044922,
+        47.043033599853516,
+        20.008502960205078
+      ]
+    }
+  },
+  {
+    "name": "05-orchid-cathedral",
+    "kind": "flowers",
+    "description": "Five narrow sepals surround a single broad ruffled lip; an intentionally asymmetric flower.",
+    "color": "#d3b6d3",
+    "nodes": 55,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Single labellum · independent petals",
+        "patches": 1
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 126118,
+      "triangles": 252232,
+      "nonManifoldEdges": 0,
+      "components": [
+        252232
+      ],
+      "volume": 1554.6357884432139,
+      "bounds": [
+        -21.110431671142578,
+        -0.8462467789649963,
+        -17.468149185180664,
+        11.99229907989502,
+        38.818687438964844,
+        17.47957992553711
+      ]
+    }
+  },
+  {
+    "name": "06-comet-lily",
+    "kind": "flowers",
+    "description": "Six long recurved tepals with raised rims and tall beaded stamens.",
+    "color": "#e8c99b",
+    "nodes": 54,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 6
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Upper foliage · independent petals",
+        "patches": 1
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 127784,
+      "triangles": 255564,
+      "nonManifoldEdges": 0,
+      "components": [
+        255564
+      ],
+      "volume": 2117.111087583485,
+      "bounds": [
+        -24.955860137939453,
+        -0.8455643653869629,
+        -21.31566047668457,
+        20.967275619506836,
+        44.33908462524414,
+        21.3179931640625
+      ]
+    }
+  },
+  {
+    "name": "07-clockwork-rose",
+    "kind": "flowers",
+    "description": "Five staggered whorls curl into a dense spiral heart; the exterior opens into broad shoulders.",
+    "color": "#b87986",
+    "nodes": 95,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 7
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 7
+      },
+      {
+        "title": "Petal whorl 3 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Petal whorl 4 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Petal whorl 5 · independent petals",
+        "patches": 3
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 120888,
+      "triangles": 241772,
+      "nonManifoldEdges": 0,
+      "components": [
+        241772
+      ],
+      "volume": 3228.162348162186,
+      "bounds": [
+        -16.0485897064209,
+        -0.8390888571739197,
+        -13.246529579162598,
+        9.686042785644531,
+        42.92896270751953,
+        12.646222114562988
+      ]
+    }
+  },
+  {
+    "name": "08-copper-protea",
+    "kind": "flowers",
+    "description": "Layered pointed bracts cradle a pincushion of curved pollen filaments.",
+    "color": "#c8977c",
+    "nodes": 60,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 16
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 12
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 119880,
+      "triangles": 239780,
+      "nonManifoldEdges": 0,
+      "components": [
+        239780
+      ],
+      "volume": 1975.8823441810882,
+      "bounds": [
+        -14.685367584228516,
+        -0.8439897298812866,
+        -11.4049654006958,
+        7.948389053344727,
+        41.976470947265625,
+        11.404959678649902
+      ]
+    }
+  },
+  {
+    "name": "09-starlight-columbine",
+    "kind": "flowers",
+    "description": "A double star of narrow sepals and cupped petals, with five curling nectar spurs underneath.",
+    "color": "#9bbbc8",
+    "nodes": 58,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 118434,
+      "triangles": 236872,
+      "nonManifoldEdges": 0,
+      "components": [
+        236872
+      ],
+      "volume": 1606.7823332463447,
+      "bounds": [
+        -24.726119995117188,
+        -0.8463044762611389,
+        -21.15452003479004,
+        15.30509090423584,
+        40.29971694946289,
+        21.161327362060547
+      ]
+    }
+  },
+  {
+    "name": "10-orbit-passionflower",
+    "kind": "flowers",
+    "description": "Ten broad rays surround two fine corona rings and a raised central column.",
+    "color": "#c2a7ca",
+    "nodes": 47,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 10
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 119650,
+      "triangles": 239296,
+      "nonManifoldEdges": 0,
+      "components": [
+        239296
+      ],
+      "volume": 1934.5286763985978,
+      "bounds": [
+        -23.312353134155273,
+        -0.848233699798584,
+        -20.161832809448242,
+        18.61280059814453,
+        40.326316833496094,
+        20.162504196166992
+      ]
+    }
+  },
+  {
+    "name": "11-frost-hellebore",
+    "kind": "flowers",
+    "description": "Five deep bowl petals with sculpted ribs, enclosing a ring of short nectaries.",
+    "color": "#b9c5a0",
+    "nodes": 48,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 5
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 84992,
+      "triangles": 170000,
+      "nonManifoldEdges": 0,
+      "components": [
+        170000
+      ],
+      "volume": 1554.6394773388101,
+      "bounds": [
+        -13.798104286193848,
+        -0.8465781807899475,
+        -10.619184494018555,
+        7.769142150878906,
+        44.82577133178711,
+        9.92024040222168
+      ]
+    }
+  },
+  {
+    "name": "12-coral-spider-chrysanthemum",
+    "kind": "flowers",
+    "description": "Three rings of thin hooked ribbon petals form an energetic sculptural explosion.",
+    "color": "#d8b29a",
+    "nodes": 67,
+    "patches": [
+      {
+        "title": "Petal whorl 1 · independent petals",
+        "patches": 18
+      },
+      {
+        "title": "Petal whorl 2 · independent petals",
+        "patches": 14
+      },
+      {
+        "title": "Petal whorl 3 · independent petals",
+        "patches": 10
+      },
+      {
+        "title": "Basal foliage · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 254080,
+      "triangles": 508168,
+      "nonManifoldEdges": 0,
+      "components": [
+        508168
+      ],
+      "volume": 3472.0869438384893,
+      "bounds": [
+        -22.811264038085938,
+        -0.8469904661178589,
+        -21.70099449157715,
+        21.29855728149414,
+        37.99358367919922,
+        21.711381912231445
+      ]
+    }
+  },
+  {
+    "name": "01-antler-stag-beetle",
+    "kind": "insects",
+    "description": "Armoured beetle with antler mandibles, closed rib cages, paired wing cases and six clawed legs.",
+    "color": "#b38b65",
+    "nodes": 108,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Protective elytra · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 52574,
+      "triangles": 105152,
+      "nonManifoldEdges": 0,
+      "components": [
+        105152
+      ],
+      "volume": 2731.5294877591477,
+      "bounds": [
+        -15.924391746520996,
+        -1.5454292297363281,
+        -6.714560508728027,
+        15.924391746520996,
+        48.05348587036133,
+        6.7144975662231445
+      ]
+    }
+  },
+  {
+    "name": "02-atlas-moth",
+    "kind": "insects",
+    "description": "Four expansive lofted wings, tapered ribbed abdomen and long curved antennae.",
+    "color": "#bea17d",
+    "nodes": 117,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 64616,
+      "triangles": 129236,
+      "nonManifoldEdges": 0,
+      "components": [
+        129236
+      ],
+      "volume": 3559.44338828903,
+      "bounds": [
+        -32.34420394897461,
+        -1.5450537204742432,
+        -4.729834079742432,
+        32.346614837646484,
+        42.04064178466797,
+        5.477550029754639
+      ]
+    }
+  },
+  {
+    "name": "03-glass-dragonfly",
+    "kind": "insects",
+    "description": "Long articulated abdomen, large eyes and four slender blade wings.",
+    "color": "#8bafba",
+    "nodes": 117,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 48602,
+      "triangles": 97208,
+      "nonManifoldEdges": 0,
+      "components": [
+        97208
+      ],
+      "volume": 2552.688019394056,
+      "bounds": [
+        -32.34456253051758,
+        -1.5448347330093384,
+        -4.741105079650879,
+        32.3480224609375,
+        51.305442810058594,
+        5.115036964416504
+      ]
+    }
+  },
+  {
+    "name": "04-cathedral-mantis",
+    "kind": "insects",
+    "description": "Elongated thorax, raptorial foreleg spines, pointed folded wings and fine feelers.",
+    "color": "#a7b796",
+    "nodes": 109,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 40866,
+      "triangles": 81732,
+      "nonManifoldEdges": 0,
+      "components": [
+        81732
+      ],
+      "volume": 1731.847122869429,
+      "bounds": [
+        -22.260709762573242,
+        -1.549228549003601,
+        -4.020246505737305,
+        22.260440826416016,
+        54.96308517456055,
+        6.217498779296875
+      ]
+    }
+  },
+  {
+    "name": "05-acorn-weevil",
+    "kind": "insects",
+    "description": "Pear-shaped ribbed abdomen, short legs, clubbed antennae and a long rostrum.",
+    "color": "#b6a085",
+    "nodes": 111,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Protective elytra · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 65712,
+      "triangles": 131420,
+      "nonManifoldEdges": 0,
+      "components": [
+        131420
+      ],
+      "volume": 2824.5221388643495,
+      "bounds": [
+        -12.308256149291992,
+        -1.855754017829895,
+        -7.715720176696777,
+        12.308040618896484,
+        39.41657638549805,
+        7.7157206535339355
+      ]
+    }
+  },
+  {
+    "name": "06-clockwork-cicada",
+    "kind": "insects",
+    "description": "Broad shoulder cage and two pairs of tapered transparent-style ribbed wings.",
+    "color": "#aaa879",
+    "nodes": 117,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 66474,
+      "triangles": 132948,
+      "nonManifoldEdges": 0,
+      "components": [
+        132948
+      ],
+      "volume": 3372.2916762698856,
+      "bounds": [
+        -26.29052734375,
+        -1.549094796180725,
+        -6.128917217254639,
+        26.28928565979004,
+        39.50350570678711,
+        6.463544845581055
+      ]
+    }
+  },
+  {
+    "name": "07-rhinoceros-beetle",
+    "kind": "insects",
+    "description": "Heavy ribbed armour under twin elytra, a sweeping horn and stout clawed legs.",
+    "color": "#a69383",
+    "nodes": 111,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Protective elytra · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 69160,
+      "triangles": 138320,
+      "nonManifoldEdges": 0,
+      "components": [
+        138320
+      ],
+      "volume": 3613.739026934914,
+      "bounds": [
+        -15.030583381652832,
+        -1.5442531108856201,
+        -7.4163923263549805,
+        15.030562400817871,
+        44.04707717895508,
+        14.090987205505371
+      ]
+    }
+  },
+  {
+    "name": "08-lunar-lacewing",
+    "kind": "insects",
+    "description": "Four delicately corrugated leaf wings over a slim ribbed body with exceptionally long feelers.",
+    "color": "#a7c5b5",
+    "nodes": 119,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 67048,
+      "triangles": 134096,
+      "nonManifoldEdges": 0,
+      "components": [
+        134096
+      ],
+      "volume": 2741.5449226520814,
+      "bounds": [
+        -28.58697509765625,
+        -1.5489662885665894,
+        -4.731935024261475,
+        28.583837509155273,
+        47.95854187011719,
+        5.747187614440918
+      ]
+    }
+  },
+  {
+    "name": "09-spring-grasshopper",
+    "kind": "insects",
+    "description": "Long hind femora, slim tapering abdomen, cerci and folded lanceolate wings.",
+    "color": "#b7b581",
+    "nodes": 109,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 41914,
+      "triangles": 83824,
+      "nonManifoldEdges": 0,
+      "components": [
+        83824
+      ],
+      "volume": 2119.3913400161496,
+      "bounds": [
+        -21.121644973754883,
+        -5.723936557769775,
+        -4.730403423309326,
+        21.121442794799805,
+        51.856361389160156,
+        6.362135410308838
+      ]
+    }
+  },
+  {
+    "name": "10-armoured-earwig",
+    "kind": "insects",
+    "description": "Elongated ribbed abdomen terminating in curved forceps, with short protective wing cases.",
+    "color": "#ac897c",
+    "nodes": 109,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 31928,
+      "triangles": 63856,
+      "nonManifoldEdges": 0,
+      "components": [
+        63856
+      ],
+      "volume": 1610.6928063731189,
+      "bounds": [
+        -14.12320613861084,
+        -8.427987098693848,
+        -4.3204569816589355,
+        14.122764587402344,
+        47.20510482788086,
+        4.678640842437744
+      ]
+    }
+  },
+  {
+    "name": "11-winged-ant-queen",
+    "kind": "insects",
+    "description": "Large ribbed gaster, narrow thorax, long elbow-like antennae and four unequal wings.",
+    "color": "#b38c9a",
+    "nodes": 117,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 74214,
+      "triangles": 148456,
+      "nonManifoldEdges": 0,
+      "components": [
+        148456
+      ],
+      "volume": 3255.281198356525,
+      "bounds": [
+        -26.434825897216797,
+        -1.5499333143234253,
+        -6.418370723724365,
+        26.434083938598633,
+        42.35978317260742,
+        6.418453693389893
+      ]
+    }
+  },
+  {
+    "name": "12-sunburst-scarab",
+    "kind": "insects",
+    "description": "Compact armoured body with elevated spreading elytra and a second pair of fan-like flying wings.",
+    "color": "#c0aa73",
+    "nodes": 131,
+    "patches": [
+      {
+        "title": "Abdomen · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Thorax · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Head · body skin",
+        "patches": 1
+      },
+      {
+        "title": "Forewing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Hindwing membranes · independent petals",
+        "patches": 2
+      },
+      {
+        "title": "Protective elytra · independent petals",
+        "patches": 2
+      }
+    ],
+    "validation": {
+      "finite": true,
+      "vertices": 97318,
+      "triangles": 194644,
+      "nonManifoldEdges": 0,
+      "components": [
+        194644
+      ],
+      "volume": 3726.53790260492,
+      "bounds": [
+        -22.3560791015625,
+        -1.5492916107177734,
+        -7.015448570251465,
+        22.351905822753906,
+        37.86345672607422,
+        7.015692234039307
+      ]
+    }
+  }
+]

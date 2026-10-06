@@ -1,0 +1,915 @@
+{
+ "last_node_id": 14,
+ "last_link_id": 18,
+ "nodes": [
+  {
+   "id": 1,
+   "type": "tree/root",
+   "pos": [
+    60,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 366
+   },
+   "flags": {},
+   "order": 0,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      1
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "Stem",
+   "properties": {
+    "values": {
+     "trunks": 1,
+     "joints": 4,
+     "length": 1.1,
+     "width": 0.4,
+     "angle": 0,
+     "spread": 0,
+     "taper": 1,
+     "x": 0,
+     "y": 0,
+     "z": 0,
+     "rot x": 0,
+     "rot y": 0,
+     "rot z": 0.8
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 2,
+   "type": "tree/branch",
+   "pos": [
+    360,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 294
+   },
+   "flags": {},
+   "order": 4,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 1,
+     "_fixed": true
+    },
+    {
+     "name": "at",
+     "type": "branches,selection",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      2,
+      4
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      3,
+      11
+     ]
+    }
+   ],
+   "title": "Trumpet ribs",
+   "properties": {
+    "values": {
+     "joints": 12,
+     "rads": 16,
+     "angle": 0.06,
+     "spread": 0,
+     "length": 0.4,
+     "width": 0.02,
+     "taper": 1,
+     "every": 1,
+     "start": -1,
+     "end": -1
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 3,
+   "type": "tree/select",
+   "pos": [
+    360,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 5,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 2,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 3,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      5,
+      8
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "rib joints",
+   "properties": {
+    "values": {
+     "joints": "all but first",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 4,
+   "type": "tree/rotate",
+   "pos": [
+    660,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 160
+   },
+   "flags": {},
+   "order": 6,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 4,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 5,
+     "_fixed": true
+    },
+    {
+     "name": "rz",
+     "type": "number,field",
+     "link": 6,
+     "_pin": "rz"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      7
+     ]
+    }
+   ],
+   "title": "Flare",
+   "properties": {
+    "values": {
+     "mode": "add",
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "pins": {
+     "rz": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 5,
+   "type": "field/expression",
+   "pos": [
+    660,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 1,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      6
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "pow(along, 2.6) * 0.62"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 6,
+   "type": "tree/size",
+   "pos": [
+    960,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 136
+   },
+   "flags": {},
+   "order": 7,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 7,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 8,
+     "_fixed": true
+    },
+    {
+     "name": "length",
+     "type": "number,field",
+     "link": 9,
+     "_pin": "length"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      10,
+      14,
+      15,
+      16
+     ]
+    }
+   ],
+   "title": "Lengthen outward",
+   "properties": {
+    "values": {
+     "mode": "set",
+     "length": 0,
+     "width": 0
+    },
+    "pins": {
+     "length": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 7,
+   "type": "field/expression",
+   "pos": [
+    960,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 2,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      9
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "0.3 + pow(along, 2) * 0.55"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 8,
+   "type": "surface/loft",
+   "pos": [
+    1260,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 270
+   },
+   "flags": {},
+   "order": 8,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 10,
+     "_fixed": true
+    },
+    {
+     "name": "ribs",
+     "type": "branches,selection",
+     "link": 11,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      12
+     ]
+    }
+   ],
+   "title": "Trumpet",
+   "properties": {
+    "values": {
+     "span": "whole set",
+     "spacing": 0.128,
+     "divide u": 26,
+     "divide v": 46,
+     "every": 1,
+     "skip base": 0,
+     "skip tip": 0,
+     "closed": true,
+     "group by": "parent branch"
+    },
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 9,
+   "type": "value/slider",
+   "pos": [
+    1260,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 3,
+   "mode": 0,
+   "outputs": [
+    {
+     "name": "value",
+     "type": "number",
+     "links": [
+      13
+     ]
+    }
+   ],
+   "title": "frill",
+   "properties": {
+    "values": {
+     "name": "frill",
+     "value": 0.55,
+     "min": 0,
+     "max": 1.2
+    },
+    "pins": {}
+   },
+   "color": "#6b4a2f",
+   "bgcolor": "#4d3522"
+  },
+  {
+   "id": 10,
+   "type": "surface/warp",
+   "pos": [
+    1560,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 210
+   },
+   "flags": {},
+   "order": 11,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "link": 12,
+     "_fixed": true
+    },
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": 13,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      17
+     ]
+    }
+   ],
+   "title": "Frill the rim",
+   "properties": {
+    "values": {
+     "normal": "sin(v * PI * 12) * pow(u, 5) * a",
+     "along u": "pow(u, 4) * sin(v * PI * 6) * 0.22",
+     "along v": "0",
+     "radius": "1"
+    },
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 11,
+   "type": "out/preview",
+   "pos": [
+    1860,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 9,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 14,
+     "_fixed": true
+    }
+   ],
+   "properties": {
+    "values": {
+     "show": false,
+     "balls": true,
+     "segments": true,
+     "color": "#e8e8e8"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 12,
+   "type": "out/tubes",
+   "pos": [
+    1860,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 298
+   },
+   "flags": {},
+   "order": 10,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 15,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "links": null
+    }
+   ],
+   "properties": {
+    "values": {
+     "live": true,
+     "show": false,
+     "radial segs": 7,
+     "subdivide": 2,
+     "caps": "ball",
+     "cap rings": 4,
+     "radius x": 1,
+     "min radius": 0,
+     "joint balls": false,
+     "color": "#d9d3c7"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 13,
+   "type": "out/isosurface",
+   "pos": [
+    1860,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 386
+   },
+   "flags": {},
+   "order": 12,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 16,
+     "_fixed": true
+    },
+    {
+     "name": "curves",
+     "type": "curves",
+     "link": 17,
+     "_fixed": true
+    },
+    {
+     "name": "points",
+     "type": "mesh",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "links": [
+      18
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "live": false,
+     "show": true,
+     "resolution": 240,
+     "smooth": 2,
+     "blend": 1.1,
+     "drop specks": 64,
+     "radius x": 1,
+     "min radius": 0,
+     "curve dir": "both",
+     "curve radius": 0.16,
+     "point radius": 0,
+     "color": "#cfd6e0"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 14,
+   "type": "out/export",
+   "pos": [
+    2160,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 13,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "link": 18,
+     "_fixed": true
+    }
+   ],
+   "properties": {
+    "values": {
+     "format": "stl",
+     "scale": 1,
+     "name": "datura"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  }
+ ],
+ "links": [
+  [
+   1,
+   1,
+   0,
+   2,
+   0,
+   "skeleton"
+  ],
+  [
+   2,
+   2,
+   0,
+   3,
+   0,
+   "skeleton"
+  ],
+  [
+   3,
+   2,
+   1,
+   3,
+   1,
+   "branches,selection"
+  ],
+  [
+   4,
+   2,
+   0,
+   4,
+   0,
+   "skeleton"
+  ],
+  [
+   5,
+   3,
+   0,
+   4,
+   1,
+   "selection"
+  ],
+  [
+   6,
+   5,
+   0,
+   4,
+   2,
+   "number,field"
+  ],
+  [
+   7,
+   4,
+   0,
+   6,
+   0,
+   "skeleton"
+  ],
+  [
+   8,
+   3,
+   0,
+   6,
+   1,
+   "selection"
+  ],
+  [
+   9,
+   7,
+   0,
+   6,
+   2,
+   "number,field"
+  ],
+  [
+   10,
+   6,
+   0,
+   8,
+   0,
+   "skeleton"
+  ],
+  [
+   11,
+   2,
+   1,
+   8,
+   1,
+   "branches,selection"
+  ],
+  [
+   12,
+   8,
+   0,
+   10,
+   0,
+   "curves"
+  ],
+  [
+   13,
+   9,
+   0,
+   10,
+   1,
+   "number,field"
+  ],
+  [
+   14,
+   6,
+   0,
+   11,
+   0,
+   "skeleton"
+  ],
+  [
+   15,
+   6,
+   0,
+   12,
+   0,
+   "skeleton"
+  ],
+  [
+   16,
+   6,
+   0,
+   13,
+   0,
+   "skeleton"
+  ],
+  [
+   17,
+   10,
+   0,
+   13,
+   1,
+   "curves"
+  ],
+  [
+   18,
+   13,
+   0,
+   14,
+   0,
+   "mesh"
+  ]
+ ],
+ "groups": [],
+ "config": {},
+ "extra": {
+  "title": "Datura trumpet",
+  "slug": "07-frilled-datura",
+  "description": "One closed trumpet whose rim is ruffled by a high-frequency warp.",
+  "collection": "TREE · Flowers",
+  "units": "Graph units; set the Export node scale for your printer",
+  "notes": "Built by tools/export-examples.mjs from examples/flowers.js. The Isosurface node is not live: press \"Build now\" on it after editing."
+ },
+ "version": 0.4
+}

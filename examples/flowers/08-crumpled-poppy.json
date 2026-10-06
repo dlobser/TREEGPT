@@ -1,0 +1,2301 @@
+{
+ "last_node_id": 33,
+ "last_link_id": 51,
+ "nodes": [
+  {
+   "id": 1,
+   "type": "tree/root",
+   "pos": [
+    60,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 366
+   },
+   "flags": {},
+   "order": 0,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      1,
+      3
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      2,
+      38
+     ]
+    }
+   ],
+   "title": "Stem",
+   "properties": {
+    "values": {
+     "trunks": 1,
+     "joints": 9,
+     "length": 1.15,
+     "width": 0.22,
+     "angle": 0,
+     "spread": 0,
+     "taper": 0.99,
+     "x": 0,
+     "y": 0,
+     "z": 0,
+     "rot x": 0,
+     "rot y": 0,
+     "rot z": 0
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 2,
+   "type": "tree/select",
+   "pos": [
+    360,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 7,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 1,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 2,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      4
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "stem joints",
+   "properties": {
+    "values": {
+     "joints": "all but first",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 3,
+   "type": "tree/rotate",
+   "pos": [
+    360,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 160
+   },
+   "flags": {},
+   "order": 8,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 3,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 4,
+     "_fixed": true
+    },
+    {
+     "name": "rz",
+     "type": "number,field",
+     "link": 5,
+     "_pin": "rz"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      6
+     ]
+    }
+   ],
+   "title": "Hairy stem wobble",
+   "properties": {
+    "values": {
+     "mode": "add",
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "pins": {
+     "rz": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 4,
+   "type": "field/expression",
+   "pos": [
+    360,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 1,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      5
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "noise(joint * 0.55, 3.1, 0) * 0.14"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 5,
+   "type": "tree/branch",
+   "pos": [
+    660,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 294
+   },
+   "flags": {},
+   "order": 9,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 6,
+     "_fixed": true
+    },
+    {
+     "name": "at",
+     "type": "branches,selection",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      7
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      9,
+      11
+     ]
+    }
+   ],
+   "title": "Petals",
+   "properties": {
+    "values": {
+     "joints": 8,
+     "rads": 4,
+     "angle": 0.95,
+     "spread": 0,
+     "length": 0.72,
+     "width": 0.13,
+     "taper": 0.99,
+     "every": 1,
+     "start": -1,
+     "end": -1
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 6,
+   "type": "tree/branch",
+   "pos": [
+    960,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 294
+   },
+   "flags": {},
+   "order": 10,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 7,
+     "_fixed": true
+    },
+    {
+     "name": "at",
+     "type": "branches,selection",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      8,
+      10,
+      12,
+      14,
+      16
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      13,
+      15,
+      26,
+      28
+     ]
+    }
+   ],
+   "title": "Petals ribs",
+   "properties": {
+    "values": {
+     "joints": 3,
+     "rads": 2,
+     "angle": 1.5707963267948966,
+     "spread": 1.5707963267948966,
+     "length": 1,
+     "width": 0.02,
+     "taper": 1,
+     "every": 1,
+     "start": 0,
+     "end": -1
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 7,
+   "type": "tree/select",
+   "pos": [
+    660,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 11,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 8,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 9,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      17
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "spine joints",
+   "properties": {
+    "values": {
+     "joints": "all but first",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 8,
+   "type": "tree/select",
+   "pos": [
+    660,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 12,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 10,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 11,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": null
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "spine all",
+   "properties": {
+    "values": {
+     "joints": "all",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 9,
+   "type": "tree/select",
+   "pos": [
+    960,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 13,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 12,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 13,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      20
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "rib joints",
+   "properties": {
+    "values": {
+     "joints": "all",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 10,
+   "type": "tree/select",
+   "pos": [
+    960,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 14,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 14,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 15,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      23
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "rib tail",
+   "properties": {
+    "values": {
+     "joints": "all but first",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 11,
+   "type": "tree/rotate",
+   "pos": [
+    1260,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 160
+   },
+   "flags": {},
+   "order": 15,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 16,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 17,
+     "_fixed": true
+    },
+    {
+     "name": "rz",
+     "type": "number,field",
+     "link": 18,
+     "_pin": "rz"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      19
+     ]
+    }
+   ],
+   "title": "Curve",
+   "properties": {
+    "values": {
+     "mode": "add",
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "pins": {
+     "rz": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 12,
+   "type": "field/expression",
+   "pos": [
+    1260,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 2,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      18
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "0.06 + along * 0.08"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 13,
+   "type": "tree/size",
+   "pos": [
+    1860,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 136
+   },
+   "flags": {},
+   "order": 16,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 19,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 20,
+     "_fixed": true
+    },
+    {
+     "name": "length",
+     "type": "number,field",
+     "link": 21,
+     "_pin": "length"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      22
+     ]
+    }
+   ],
+   "title": "Outline",
+   "properties": {
+    "values": {
+     "mode": "set",
+     "length": 0,
+     "width": 0
+    },
+    "pins": {
+     "length": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 14,
+   "type": "field/expression",
+   "pos": [
+    1860,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 3,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      21
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "(sin(pow(pfrac, 0.42) * PI) * 2.5) / 3"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 15,
+   "type": "tree/rotate",
+   "pos": [
+    2160,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 160
+   },
+   "flags": {},
+   "order": 17,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 22,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 23,
+     "_fixed": true
+    },
+    {
+     "name": "rx",
+     "type": "number,field",
+     "link": 24,
+     "_pin": "rx"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      25,
+      27,
+      29,
+      31,
+      37,
+      39
+     ]
+    }
+   ],
+   "title": "Cup",
+   "properties": {
+    "values": {
+     "mode": "add",
+     "rx": 0,
+     "ry": 0,
+     "rz": 0
+    },
+    "pins": {
+     "rx": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 16,
+   "type": "field/expression",
+   "pos": [
+    2160,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 4,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      24
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "(rad == 0 ? 1 : -1) * (0.34 * (1 - along * 0.3))"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 17,
+   "type": "tree/select",
+   "pos": [
+    2460,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 18,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 25,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 26,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": null
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      30
+     ]
+    }
+   ],
+   "title": "left ribs",
+   "properties": {
+    "values": {
+     "joints": "all",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "index",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 18,
+   "type": "tree/select",
+   "pos": [
+    2460,
+    790
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 19,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 27,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 28,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": null
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      32
+     ]
+    }
+   ],
+   "title": "right ribs",
+   "properties": {
+    "values": {
+     "joints": "all",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "index",
+     "spoke": 1,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 19,
+   "type": "surface/loft",
+   "pos": [
+    2760,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 270
+   },
+   "flags": {},
+   "order": 21,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 29,
+     "_fixed": true
+    },
+    {
+     "name": "ribs",
+     "type": "branches,selection",
+     "link": 30,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      33
+     ]
+    }
+   ],
+   "title": "Loft L",
+   "properties": {
+    "values": {
+     "span": "whole set",
+     "spacing": 0.136,
+     "divide u": 14,
+     "divide v": 40,
+     "every": 1,
+     "skip base": 0,
+     "skip tip": 0,
+     "closed": false,
+     "group by": "parent branch"
+    },
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 20,
+   "type": "surface/loft",
+   "pos": [
+    2760,
+    790
+   ],
+   "size": {
+    "0": 210,
+    "1": 270
+   },
+   "flags": {},
+   "order": 22,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 31,
+     "_fixed": true
+    },
+    {
+     "name": "ribs",
+     "type": "branches,selection",
+     "link": 32,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      34
+     ]
+    }
+   ],
+   "title": "Loft R",
+   "properties": {
+    "values": {
+     "span": "whole set",
+     "spacing": 0.136,
+     "divide u": 14,
+     "divide v": 40,
+     "every": 1,
+     "skip base": 0,
+     "skip tip": 0,
+     "closed": false,
+     "group by": "parent branch"
+    },
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 21,
+   "type": "surface/join",
+   "pos": [
+    3060,
+    540
+   ],
+   "size": [
+    160,
+    100
+   ],
+   "flags": {},
+   "order": 24,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "curves 1",
+     "type": "curves",
+     "link": 33,
+     "_fixed": true
+    },
+    {
+     "name": "curves 2",
+     "type": "curves",
+     "link": 34,
+     "_fixed": true
+    },
+    {
+     "name": "curves 3",
+     "type": "curves",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "curves 4",
+     "type": "curves",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      35
+     ]
+    }
+   ],
+   "title": "Petals surface",
+   "properties": {
+    "values": {},
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 22,
+   "type": "value/slider",
+   "pos": [
+    3360,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 5,
+   "mode": 0,
+   "outputs": [
+    {
+     "name": "value",
+     "type": "number",
+     "links": [
+      36
+     ]
+    }
+   ],
+   "title": "crumple",
+   "properties": {
+    "values": {
+     "name": "crumple",
+     "value": 0.4,
+     "min": 0,
+     "max": 1.2
+    },
+    "pins": {}
+   },
+   "color": "#6b4a2f",
+   "bgcolor": "#4d3522"
+  },
+  {
+   "id": 23,
+   "type": "surface/warp",
+   "pos": [
+    3360,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 210
+   },
+   "flags": {},
+   "order": 26,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "link": 35,
+     "_fixed": true
+    },
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": 36,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "curves",
+     "type": "curves",
+     "links": [
+      50
+     ]
+    }
+   ],
+   "title": "Crumple",
+   "properties": {
+    "values": {
+     "normal": "noise(x * 2.2, y * 2.2, z * 2.2) * a * sin(u * PI) * 0.6",
+     "along u": "noise(x * 1.5 + 9, y * 1.5, z * 1.5) * a * 0.28",
+     "along v": "noise(x * 1.5, y * 1.5 + 4, z * 1.5) * a * 0.28",
+     "radius": "0.55 + 0.45 * sin(u * PI)"
+    },
+    "pins": {}
+   },
+   "color": "#1e5c5c",
+   "bgcolor": "#164343"
+  },
+  {
+   "id": 24,
+   "type": "tree/select",
+   "pos": [
+    3660,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 20,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 37,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 38,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      40
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "stem top",
+   "properties": {
+    "values": {
+     "joints": "last",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 25,
+   "type": "tree/branch",
+   "pos": [
+    3660,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 294
+   },
+   "flags": {},
+   "order": 23,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 39,
+     "_fixed": true
+    },
+    {
+     "name": "at",
+     "type": "branches,selection",
+     "link": 40,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      41,
+      43
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": [
+      42
+     ]
+    }
+   ],
+   "title": "Capsule",
+   "properties": {
+    "values": {
+     "joints": 3,
+     "rads": 1,
+     "angle": 0,
+     "spread": 0,
+     "length": 0.3,
+     "width": 0.75,
+     "taper": 1,
+     "every": 1,
+     "start": 0,
+     "end": -1
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 26,
+   "type": "tree/select",
+   "pos": [
+    3960,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 222
+   },
+   "flags": {},
+   "order": 25,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 41,
+     "_fixed": true
+    },
+    {
+     "name": "scope",
+     "type": "branches,selection",
+     "link": 42,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "selection",
+     "type": "selection",
+     "links": [
+      44
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "capsule joints",
+   "properties": {
+    "values": {
+     "joints": "all",
+     "from": 0,
+     "to": -1,
+     "step": 2,
+     "spokes": "all",
+     "spoke": 0,
+     "filter": ""
+    },
+    "pins": {}
+   },
+   "color": "#6b5a1e",
+   "bgcolor": "#4a3f15"
+  },
+  {
+   "id": 27,
+   "type": "tree/size",
+   "pos": [
+    3960,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 136
+   },
+   "flags": {},
+   "order": 27,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 43,
+     "_fixed": true
+    },
+    {
+     "name": "selection",
+     "type": "selection",
+     "link": 44,
+     "_fixed": true
+    },
+    {
+     "name": "width",
+     "type": "number,field",
+     "link": 45,
+     "_pin": "width"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      46
+     ]
+    }
+   ],
+   "title": "Dome it",
+   "properties": {
+    "values": {
+     "mode": "set",
+     "length": 0,
+     "width": 0
+    },
+    "pins": {
+     "width": true
+    }
+   },
+   "color": "#2f4a6b",
+   "bgcolor": "#22364d"
+  },
+  {
+   "id": 28,
+   "type": "field/expression",
+   "pos": [
+    3960,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 118
+   },
+   "flags": {},
+   "order": 6,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "a",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "b",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "c",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    },
+    {
+     "name": "d",
+     "type": "number,field",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "field",
+     "type": "field",
+     "links": [
+      45
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "expr": "0.8 * sin((0.35 + along * 0.6) * PI)"
+    },
+    "pins": {}
+   },
+   "color": "#5a3b6b",
+   "bgcolor": "#40294d"
+  },
+  {
+   "id": 29,
+   "type": "tree/branch",
+   "pos": [
+    4260,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 294
+   },
+   "flags": {},
+   "order": 28,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 46,
+     "_fixed": true
+    },
+    {
+     "name": "at",
+     "type": "branches,selection",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "links": [
+      47,
+      48,
+      49
+     ]
+    },
+    {
+     "name": "branches",
+     "type": "branches",
+     "links": null
+    }
+   ],
+   "title": "Stigma rays",
+   "properties": {
+    "values": {
+     "joints": 2,
+     "rads": 12,
+     "angle": 1.5,
+     "spread": 0,
+     "length": 0.22,
+     "width": 0.06,
+     "taper": 1,
+     "every": 1,
+     "start": -1,
+     "end": -1
+    },
+    "pins": {}
+   },
+   "color": "#2f5a2f",
+   "bgcolor": "#243f24"
+  },
+  {
+   "id": 30,
+   "type": "out/preview",
+   "pos": [
+    4560,
+    40
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 29,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 47,
+     "_fixed": true
+    }
+   ],
+   "properties": {
+    "values": {
+     "show": false,
+     "balls": true,
+     "segments": true,
+     "color": "#e8e8e8"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 31,
+   "type": "out/tubes",
+   "pos": [
+    4560,
+    290
+   ],
+   "size": {
+    "0": 210,
+    "1": 298
+   },
+   "flags": {},
+   "order": 30,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 48,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "links": null
+    }
+   ],
+   "properties": {
+    "values": {
+     "live": true,
+     "show": false,
+     "radial segs": 7,
+     "subdivide": 2,
+     "caps": "ball",
+     "cap rings": 4,
+     "radius x": 1,
+     "min radius": 0,
+     "joint balls": false,
+     "color": "#d9d3c7"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 32,
+   "type": "out/isosurface",
+   "pos": [
+    4560,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 386
+   },
+   "flags": {},
+   "order": 31,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "skeleton",
+     "type": "skeleton",
+     "link": 49,
+     "_fixed": true
+    },
+    {
+     "name": "curves",
+     "type": "curves",
+     "link": 50,
+     "_fixed": true
+    },
+    {
+     "name": "points",
+     "type": "mesh",
+     "link": null,
+     "_fixed": true
+    }
+   ],
+   "outputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "links": [
+      51
+     ]
+    }
+   ],
+   "properties": {
+    "values": {
+     "live": false,
+     "show": true,
+     "resolution": 250,
+     "smooth": 2,
+     "blend": 1.15,
+     "drop specks": 64,
+     "radius x": 1,
+     "min radius": 0,
+     "curve dir": "both",
+     "curve radius": 0.17,
+     "point radius": 0,
+     "color": "#cfd6e0"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  },
+  {
+   "id": 33,
+   "type": "out/export",
+   "pos": [
+    4860,
+    540
+   ],
+   "size": {
+    "0": 210,
+    "1": 130
+   },
+   "flags": {},
+   "order": 32,
+   "mode": 0,
+   "inputs": [
+    {
+     "name": "mesh",
+     "type": "mesh",
+     "link": 51,
+     "_fixed": true
+    }
+   ],
+   "properties": {
+    "values": {
+     "format": "stl",
+     "scale": 1,
+     "name": "poppy"
+    },
+    "pins": {}
+   },
+   "color": "#6b2f2f",
+   "bgcolor": "#4d2222"
+  }
+ ],
+ "links": [
+  [
+   1,
+   1,
+   0,
+   2,
+   0,
+   "skeleton"
+  ],
+  [
+   2,
+   1,
+   1,
+   2,
+   1,
+   "branches,selection"
+  ],
+  [
+   3,
+   1,
+   0,
+   3,
+   0,
+   "skeleton"
+  ],
+  [
+   4,
+   2,
+   0,
+   3,
+   1,
+   "selection"
+  ],
+  [
+   5,
+   4,
+   0,
+   3,
+   2,
+   "number,field"
+  ],
+  [
+   6,
+   3,
+   0,
+   5,
+   0,
+   "skeleton"
+  ],
+  [
+   7,
+   5,
+   0,
+   6,
+   0,
+   "skeleton"
+  ],
+  [
+   8,
+   6,
+   0,
+   7,
+   0,
+   "skeleton"
+  ],
+  [
+   9,
+   5,
+   1,
+   7,
+   1,
+   "branches,selection"
+  ],
+  [
+   10,
+   6,
+   0,
+   8,
+   0,
+   "skeleton"
+  ],
+  [
+   11,
+   5,
+   1,
+   8,
+   1,
+   "branches,selection"
+  ],
+  [
+   12,
+   6,
+   0,
+   9,
+   0,
+   "skeleton"
+  ],
+  [
+   13,
+   6,
+   1,
+   9,
+   1,
+   "branches,selection"
+  ],
+  [
+   14,
+   6,
+   0,
+   10,
+   0,
+   "skeleton"
+  ],
+  [
+   15,
+   6,
+   1,
+   10,
+   1,
+   "branches,selection"
+  ],
+  [
+   16,
+   6,
+   0,
+   11,
+   0,
+   "skeleton"
+  ],
+  [
+   17,
+   7,
+   0,
+   11,
+   1,
+   "selection"
+  ],
+  [
+   18,
+   12,
+   0,
+   11,
+   2,
+   "number,field"
+  ],
+  [
+   19,
+   11,
+   0,
+   13,
+   0,
+   "skeleton"
+  ],
+  [
+   20,
+   9,
+   0,
+   13,
+   1,
+   "selection"
+  ],
+  [
+   21,
+   14,
+   0,
+   13,
+   2,
+   "number,field"
+  ],
+  [
+   22,
+   13,
+   0,
+   15,
+   0,
+   "skeleton"
+  ],
+  [
+   23,
+   10,
+   0,
+   15,
+   1,
+   "selection"
+  ],
+  [
+   24,
+   16,
+   0,
+   15,
+   2,
+   "number,field"
+  ],
+  [
+   25,
+   15,
+   0,
+   17,
+   0,
+   "skeleton"
+  ],
+  [
+   26,
+   6,
+   1,
+   17,
+   1,
+   "branches,selection"
+  ],
+  [
+   27,
+   15,
+   0,
+   18,
+   0,
+   "skeleton"
+  ],
+  [
+   28,
+   6,
+   1,
+   18,
+   1,
+   "branches,selection"
+  ],
+  [
+   29,
+   15,
+   0,
+   19,
+   0,
+   "skeleton"
+  ],
+  [
+   30,
+   17,
+   1,
+   19,
+   1,
+   "branches,selection"
+  ],
+  [
+   31,
+   15,
+   0,
+   20,
+   0,
+   "skeleton"
+  ],
+  [
+   32,
+   18,
+   1,
+   20,
+   1,
+   "branches,selection"
+  ],
+  [
+   33,
+   19,
+   0,
+   21,
+   0,
+   "curves"
+  ],
+  [
+   34,
+   20,
+   0,
+   21,
+   1,
+   "curves"
+  ],
+  [
+   35,
+   21,
+   0,
+   23,
+   0,
+   "curves"
+  ],
+  [
+   36,
+   22,
+   0,
+   23,
+   1,
+   "number,field"
+  ],
+  [
+   37,
+   15,
+   0,
+   24,
+   0,
+   "skeleton"
+  ],
+  [
+   38,
+   1,
+   1,
+   24,
+   1,
+   "branches,selection"
+  ],
+  [
+   39,
+   15,
+   0,
+   25,
+   0,
+   "skeleton"
+  ],
+  [
+   40,
+   24,
+   0,
+   25,
+   1,
+   "branches,selection"
+  ],
+  [
+   41,
+   25,
+   0,
+   26,
+   0,
+   "skeleton"
+  ],
+  [
+   42,
+   25,
+   1,
+   26,
+   1,
+   "branches,selection"
+  ],
+  [
+   43,
+   25,
+   0,
+   27,
+   0,
+   "skeleton"
+  ],
+  [
+   44,
+   26,
+   0,
+   27,
+   1,
+   "selection"
+  ],
+  [
+   45,
+   28,
+   0,
+   27,
+   2,
+   "number,field"
+  ],
+  [
+   46,
+   27,
+   0,
+   29,
+   0,
+   "skeleton"
+  ],
+  [
+   47,
+   29,
+   0,
+   30,
+   0,
+   "skeleton"
+  ],
+  [
+   48,
+   29,
+   0,
+   31,
+   0,
+   "skeleton"
+  ],
+  [
+   49,
+   29,
+   0,
+   32,
+   0,
+   "skeleton"
+  ],
+  [
+   50,
+   23,
+   0,
+   32,
+   1,
+   "curves"
+  ],
+  [
+   51,
+   32,
+   0,
+   33,
+   0,
+   "mesh"
+  ]
+ ],
+ "groups": [],
+ "config": {},
+ "extra": {
+  "title": "Poppy",
+  "slug": "08-crumpled-poppy",
+  "description": "Four broad tissue-paper petals crumpled by 3D noise, around a domed seed capsule.",
+  "collection": "TREE · Flowers",
+  "units": "Graph units; set the Export node scale for your printer",
+  "notes": "Built by tools/export-examples.mjs from examples/flowers.js. The Isosurface node is not live: press \"Build now\" on it after editing."
+ },
+ "version": 0.4
+}

@@ -1,0 +1,4250 @@
+[
+ {
+  "name": "Lily",
+  "slug": "01-moonlit-lily",
+  "kind": "flowers",
+  "file": "examples/flowers/01-moonlit-lily.json",
+  "description": "Six recurved tepals over six drooping stamens with heavy anthers.",
+  "color": "#e8e2d6",
+  "nodes": 30,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "6 patches · 13×65 auto from 60 ribs · 6 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "6 patches · 13×65 auto from 60 ribs · 6 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 68380,
+   "triangles": 136756,
+   "nonManifoldEdges": 0,
+   "components": [
+    136756
+   ],
+   "parts": [
+    {
+     "triangles": 136756,
+     "volume": 41.867
+    }
+   ],
+   "loose": 0,
+   "volume": 41.86725851507313,
+   "bounds": [
+    -6.447352409362793,
+    -0.3389597237110138,
+    -5.621126651763916,
+    6.447357177734375,
+    14.367609024047852,
+    5.62104606628418
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Rose",
+  "slug": "02-spiral-rose",
+  "kind": "flowers",
+  "file": "examples/flowers/02-spiral-rose.json",
+  "description": "Twenty-four petals on the golden angle, opening and growing outward from a furled core.",
+  "color": "#e0b3bd",
+  "nodes": 33,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "24 patches · 15×48 auto from 192 ribs · 24 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "24 patches · 15×48 auto from 192 ribs · 24 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 113374,
+   "triangles": 226744,
+   "nonManifoldEdges": 0,
+   "components": [
+    226744
+   ],
+   "parts": [
+    {
+     "triangles": 226744,
+     "volume": 32.686
+    }
+   ],
+   "loose": 0,
+   "volume": 32.68558419384344,
+   "bounds": [
+    -4.738163948059082,
+    -0.49996012449264526,
+    -5.054174423217773,
+    4.118616104125977,
+    7.616198539733887,
+    4.352668285369873
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Daisy",
+  "slug": "03-disc-daisy",
+  "kind": "flowers",
+  "file": "examples/flowers/03-disc-daisy.json",
+  "description": "Flat ray florets around a domed phyllotactic disc of pollen knobs.",
+  "color": "#f0ead8",
+  "nodes": 36,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "26 patches · 8×58 auto from 234 ribs · 26 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "26 patches · 8×58 auto from 234 ribs · 26 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 96440,
+   "triangles": 192876,
+   "nonManifoldEdges": 0,
+   "components": [
+    192876
+   ],
+   "parts": [
+    {
+     "triangles": 192876,
+     "volume": 46.347
+    }
+   ],
+   "loose": 0,
+   "volume": 46.34679694087919,
+   "bounds": [
+    -6.0833563804626465,
+    -0.29916349053382874,
+    -6.060319900512695,
+    6.078407287597656,
+    14.522339820861816,
+    6.07641077041626
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Foxglove",
+  "slug": "04-bell-foxglove",
+  "kind": "flowers",
+  "file": "examples/flowers/04-bell-foxglove.json",
+  "description": "A raceme of nodding bells, each a closed loft flared at the mouth.",
+  "color": "#d8b7dd",
+  "nodes": 22,
+  "patches": [
+   {
+    "title": "Bell surfaces",
+    "info": "13 patches · 36×100 auto from 117 ribs · 13 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 64406,
+   "triangles": 128808,
+   "nonManifoldEdges": 0,
+   "components": [
+    128808
+   ],
+   "parts": [
+    {
+     "triangles": 128808,
+     "volume": 48.653
+    }
+   ],
+   "loose": 0,
+   "volume": 48.652870633072865,
+   "bounds": [
+    -6.513025760650635,
+    -0.3379972577095032,
+    -3.9075472354888916,
+    3.306662082672119,
+    21.07012176513672,
+    3.8384363651275635
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Orchid",
+  "slug": "05-lip-orchid",
+  "kind": "flowers",
+  "file": "examples/flowers/05-lip-orchid.json",
+  "description": "Bilateral, not radial: one tepal becomes a broad lip and the column twists in the throat.",
+  "color": "#e6c7e8",
+  "nodes": 33,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "5 patches · 12×50 auto from 40 ribs · 5 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "5 patches · 12×50 auto from 40 ribs · 5 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 103884,
+   "triangles": 207780,
+   "nonManifoldEdges": 0,
+   "components": [
+    207780
+   ],
+   "parts": [
+    {
+     "triangles": 207780,
+     "volume": 26.713
+    }
+   ],
+   "loose": 0,
+   "volume": 26.713348864943327,
+   "bounds": [
+    -7.50064754486084,
+    -0.2995191514492035,
+    -4.479141712188721,
+    0.29925736784935,
+    11.321338653564453,
+    5.337230205535889
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Iris",
+  "slug": "06-parity-iris",
+  "kind": "flowers",
+  "file": "examples/flowers/06-parity-iris.json",
+  "description": "Six tepals from one branch, split by parity into arching falls and upright standards.",
+  "color": "#b9b6e0",
+  "nodes": 30,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "6 patches · 21×75 auto from 60 ribs · 6 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "6 patches · 14×64 auto from 60 ribs · 6 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 82636,
+   "triangles": 165308,
+   "nonManifoldEdges": 0,
+   "components": [
+    165308
+   ],
+   "parts": [
+    {
+     "triangles": 165308,
+     "volume": 55.572
+    }
+   ],
+   "loose": 0,
+   "volume": 55.572352566329606,
+   "bounds": [
+    -6.8792724609375,
+    -0.358929306268692,
+    -5.9799699783325195,
+    3.846179246902466,
+    16.829952239990234,
+    5.9799394607543945
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Datura trumpet",
+  "slug": "07-frilled-datura",
+  "kind": "flowers",
+  "file": "examples/flowers/07-frilled-datura.json",
+  "description": "One closed trumpet whose rim is ruffled by a high-frequency warp.",
+  "color": "#efe7dc",
+  "nodes": 14,
+  "patches": [
+   {
+    "title": "Trumpet",
+    "info": "1 patch · 48×152 auto from 16 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 123564,
+   "triangles": 247120,
+   "nonManifoldEdges": 0,
+   "components": [
+    247056,
+    64
+   ],
+   "parts": [
+    {
+     "triangles": 247056,
+     "volume": 26.201
+    },
+    {
+     "triangles": 64,
+     "volume": 0
+    }
+   ],
+   "loose": 0,
+   "volume": 26.200782786979886,
+   "bounds": [
+    -8.215048789978027,
+    -0.39963850378990173,
+    -3.707495927810669,
+    0.39963850378990173,
+    8.134659767150879,
+    3.4749338626861572
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Poppy",
+  "slug": "08-crumpled-poppy",
+  "kind": "flowers",
+  "file": "examples/flowers/08-crumpled-poppy.json",
+  "description": "Four broad tissue-paper petals crumpled by 3D noise, around a domed seed capsule.",
+  "color": "#e2766a",
+  "nodes": 33,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "4 patches · 18×53 auto from 32 ribs · 4 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "4 patches · 18×53 auto from 32 ribs · 4 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 69576,
+   "triangles": 139148,
+   "nonManifoldEdges": 0,
+   "components": [
+    139148
+   ],
+   "parts": [
+    {
+     "triangles": 139148,
+     "volume": 31.856
+    }
+   ],
+   "loose": 0,
+   "volume": 31.855983266009986,
+   "bounds": [
+    -4.461327075958252,
+    -0.21956892311573029,
+    -5.103735446929932,
+    5.772919654846191,
+    12.09822940826416,
+    5.1128010749816895
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Protea",
+  "slug": "09-whorled-protea",
+  "kind": "flowers",
+  "file": "examples/flowers/09-whorled-protea.json",
+  "description": "Three concentric whorls of stiff pointed bracts around a seventy-style pincushion.",
+  "color": "#dba68c",
+  "nodes": 71,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "13 patches · 21×62 auto from 117 ribs · 13 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "13 patches · 21×62 auto from 117 ribs · 13 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "11 patches · 16×52 auto from 88 ribs · 11 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "11 patches · 16×52 auto from 88 ribs · 11 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "9 patches · 14×43 auto from 63 ribs · 9 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "9 patches · 14×43 auto from 63 ribs · 9 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 162688,
+   "triangles": 325408,
+   "nonManifoldEdges": 0,
+   "components": [
+    324368,
+    452,
+    156,
+    120,
+    112,
+    72,
+    64,
+    64
+   ],
+   "parts": [
+    {
+     "triangles": 324368,
+     "volume": 80.063
+    },
+    {
+     "triangles": 452,
+     "volume": -0.009
+    },
+    {
+     "triangles": 156,
+     "volume": -0.001
+    },
+    {
+     "triangles": 120,
+     "volume": -0.001
+    },
+    {
+     "triangles": 112,
+     "volume": -0.001
+    },
+    {
+     "triangles": 72,
+     "volume": 0
+    },
+    {
+     "triangles": 64,
+     "volume": 0
+    },
+    {
+     "triangles": 64,
+     "volume": 0
+    }
+   ],
+   "loose": 0,
+   "volume": 80.05054511702657,
+   "bounds": [
+    -5.019466876983643,
+    -0.5997790098190308,
+    -4.984063625335693,
+    4.881516933441162,
+    8.821512222290039,
+    4.984064102172852
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Fuchsia",
+  "slug": "10-pendant-fuchsia",
+  "kind": "flowers",
+  "file": "examples/flowers/10-pendant-fuchsia.json",
+  "description": "A hanging lantern: reflexed sepals, an inner corolla and long weighted stamens.",
+  "color": "#d98fb0",
+  "nodes": 50,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "4 patches · 15×55 auto from 36 ribs · 4 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "4 patches · 15×55 auto from 36 ribs · 4 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "8 patches · 12×42 auto from 64 ribs · 8 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "8 patches · 12×42 auto from 64 ribs · 8 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 115828,
+   "triangles": 231688,
+   "nonManifoldEdges": 0,
+   "components": [
+    231688
+   ],
+   "parts": [
+    {
+     "triangles": 231688,
+     "volume": 30.045
+    }
+   ],
+   "loose": 0,
+   "volume": 30.045081876106632,
+   "bounds": [
+    -2.7994654178619385,
+    -10.220823287963867,
+    -2.7995524406433105,
+    2.7995617389678955,
+    0.27994945645332336,
+    2.799476146697998
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Passionflower",
+  "slug": "11-corona-passionflower",
+  "kind": "flowers",
+  "file": "examples/flowers/11-corona-passionflower.json",
+  "description": "A corona of one hundred and fifty banded filaments over ten flat tepals.",
+  "color": "#c6b9e2",
+  "nodes": 38,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "10 patches · 11×52 auto from 80 ribs · 10 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "10 patches · 11×52 auto from 80 ribs · 10 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 116274,
+   "triangles": 232544,
+   "nonManifoldEdges": 0,
+   "components": [
+    232544
+   ],
+   "parts": [
+    {
+     "triangles": 232544,
+     "volume": 24.366
+    }
+   ],
+   "loose": 0,
+   "volume": 24.365676257845468,
+   "bounds": [
+    -5.050538063049316,
+    -0.3198693096637726,
+    -4.814009666442871,
+    5.050539016723633,
+    6.77541971206665,
+    4.814015865325928
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Echeveria",
+  "slug": "12-rosette-echeveria",
+  "kind": "flowers",
+  "file": "examples/flowers/12-rosette-echeveria.json",
+  "description": "A Fibonacci succulent rosette output as solid sheets rather than an isosurface.",
+  "color": "#b8cfa8",
+  "nodes": 34,
+  "patches": [
+   {
+    "title": "Loft L",
+    "info": "34 patches · 9×26 from 306 ribs · 34 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "34 patches · 9×26 from 306 ribs · 34 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 82189,
+   "triangles": 162062,
+   "nonManifoldEdges": 0,
+   "components": [
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    932,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    350,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    182,
+    154
+   ],
+   "parts": [
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.274
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 932,
+     "volume": 0.315
+    },
+    {
+     "triangles": 350,
+     "volume": 0.012
+    },
+    {
+     "triangles": 350,
+     "volume": 0.019
+    },
+    {
+     "triangles": 350,
+     "volume": 0.027
+    },
+    {
+     "triangles": 350,
+     "volume": 0.035
+    },
+    {
+     "triangles": 350,
+     "volume": 0.044
+    },
+    {
+     "triangles": 350,
+     "volume": 0.054
+    },
+    {
+     "triangles": 350,
+     "volume": 0.066
+    },
+    {
+     "triangles": 350,
+     "volume": 0.078
+    },
+    {
+     "triangles": 350,
+     "volume": 0.092
+    },
+    {
+     "triangles": 350,
+     "volume": 0.107
+    },
+    {
+     "triangles": 350,
+     "volume": 0.123
+    },
+    {
+     "triangles": 350,
+     "volume": 0.14
+    },
+    {
+     "triangles": 350,
+     "volume": 0.159
+    },
+    {
+     "triangles": 350,
+     "volume": 0.179
+    },
+    {
+     "triangles": 350,
+     "volume": 0.2
+    },
+    {
+     "triangles": 350,
+     "volume": 0.223
+    },
+    {
+     "triangles": 350,
+     "volume": 0.247
+    },
+    {
+     "triangles": 350,
+     "volume": 0.273
+    },
+    {
+     "triangles": 350,
+     "volume": 0.3
+    },
+    {
+     "triangles": 350,
+     "volume": 0.328
+    },
+    {
+     "triangles": 350,
+     "volume": 0.358
+    },
+    {
+     "triangles": 350,
+     "volume": 0.39
+    },
+    {
+     "triangles": 350,
+     "volume": 0.423
+    },
+    {
+     "triangles": 350,
+     "volume": 0.458
+    },
+    {
+     "triangles": 350,
+     "volume": 0.494
+    },
+    {
+     "triangles": 350,
+     "volume": 0.532
+    },
+    {
+     "triangles": 350,
+     "volume": 0.571
+    },
+    {
+     "triangles": 350,
+     "volume": 0.613
+    },
+    {
+     "triangles": 350,
+     "volume": 0.656
+    },
+    {
+     "triangles": 350,
+     "volume": 0.7
+    },
+    {
+     "triangles": 350,
+     "volume": 0.747
+    },
+    {
+     "triangles": 350,
+     "volume": 0.795
+    },
+    {
+     "triangles": 350,
+     "volume": 0.845
+    },
+    {
+     "triangles": 350,
+     "volume": 0.897
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.002
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0.001
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 182,
+     "volume": 0
+    },
+    {
+     "triangles": 154,
+     "volume": 3.198
+    }
+   ],
+   "loose": 268,
+   "volume": 34.648984508403295,
+   "bounds": [
+    -4.513947010040283,
+    -1.2912940979003906,
+    -4.708317756652832,
+    4.970245838165283,
+    4.676637649536133,
+    5.133115768432617
+   ],
+   "unioned": false
+  },
+  "errors": []
+ },
+ {
+  "name": "Beetle",
+  "slug": "01-domed-beetle",
+  "kind": "insects",
+  "file": "examples/insects/01-domed-beetle.json",
+  "description": "A ribbed thorax and abdomen under two domed elytra, with clubbed antennae.",
+  "color": "#8c7c68",
+  "nodes": 58,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 27×69 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 27×69 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "1 patch · 12×44 auto from 11 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "1 patch · 12×44 auto from 11 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 100032,
+   "triangles": 200128,
+   "nonManifoldEdges": 0,
+   "components": [
+    138680,
+    34436,
+    27012
+   ],
+   "parts": [
+    {
+     "triangles": 138680,
+     "volume": 28.632
+    },
+    {
+     "triangles": 34436,
+     "volume": -2.015
+    },
+    {
+     "triangles": 27012,
+     "volume": -2.976
+    }
+   ],
+   "loose": 0,
+   "volume": 23.641043363818902,
+   "bounds": [
+    -9.119357109069824,
+    -1.2760149240493774,
+    -3.2386317253112793,
+    0.2992304563522339,
+    1.4218870401382446,
+    3.238630533218384
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Moth",
+  "slug": "02-plumed-moth",
+  "kind": "insects",
+  "file": "examples/insects/02-plumed-moth.json",
+  "description": "Four veined wings and a furred body, with feathered antennae built as chains of chains.",
+  "color": "#bfae95",
+  "nodes": 65,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 25×64 auto from 13 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 25×64 auto from 13 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 18×61 auto from 18 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 18×61 auto from 18 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 16×46 auto from 14 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 16×46 auto from 14 ribs · 2 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 67642,
+   "triangles": 135312,
+   "nonManifoldEdges": 0,
+   "components": [
+    118936,
+    16376
+   ],
+   "parts": [
+    {
+     "triangles": 118936,
+     "volume": 28.418
+    },
+    {
+     "triangles": 16376,
+     "volume": -2.689
+    }
+   ],
+   "loose": 0,
+   "volume": 25.7287206355415,
+   "bounds": [
+    -6.9243927001953125,
+    -1.8636430501937866,
+    -6.149328708648682,
+    0.24949538707733154,
+    1.8636807203292847,
+    6.149327754974365
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Dragonfly",
+  "slug": "03-glass-dragonfly",
+  "kind": "insects",
+  "file": "examples/insects/03-glass-dragonfly.json",
+  "description": "A long rippled abdomen and four narrow wings over huge compound eyes.",
+  "color": "#a9c4cc",
+  "nodes": 73,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 17×134 auto from 26 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 17×134 auto from 26 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 11×86 auto from 24 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 11×86 auto from 24 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 12×79 auto from 22 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 12×79 auto from 22 ribs · 2 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 56824,
+   "triangles": 113660,
+   "nonManifoldEdges": 0,
+   "components": [
+    113660
+   ],
+   "parts": [
+    {
+     "triangles": 113660,
+     "volume": 29.784
+    }
+   ],
+   "loose": 0,
+   "volume": 29.7835110213383,
+   "bounds": [
+    -12.302427291870117,
+    -1.0528024435043335,
+    -7.338188171386719,
+    0.46242979168891907,
+    1.2019615173339844,
+    7.33819580078125
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Ant",
+  "slug": "04-waisted-ant",
+  "kind": "insects",
+  "file": "examples/insects/04-waisted-ant.json",
+  "description": "Three lobes on one spine; the waists fall out of the profile expression for free.",
+  "color": "#7a5544",
+  "nodes": 45,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 25×69 auto from 22 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 25×69 auto from 22 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 96288,
+   "triangles": 192572,
+   "nonManifoldEdges": 0,
+   "components": [
+    165008,
+    14292,
+    7648,
+    5624
+   ],
+   "parts": [
+    {
+     "triangles": 165008,
+     "volume": 14.775
+    },
+    {
+     "triangles": 14292,
+     "volume": -0.8
+    },
+    {
+     "triangles": 7648,
+     "volume": -0.275
+    },
+    {
+     "triangles": 5624,
+     "volume": -0.145
+    }
+   ],
+   "loose": 0,
+   "volume": 13.555147670075833,
+   "bounds": [
+    -7.29271125793457,
+    -0.9098998308181763,
+    -2.8482797145843506,
+    0.19971388578414917,
+    2.914571523666382,
+    2.8482797145843506
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Grasshopper",
+  "slug": "05-spring-grasshopper",
+  "kind": "insects",
+  "file": "examples/insects/05-spring-grasshopper.json",
+  "description": "Folded hind legs with swollen femora, from a single bend expression over joint index.",
+  "color": "#9db072",
+  "nodes": 70,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 18×54 auto from 18 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 18×54 auto from 18 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "1 patch · 7×36 auto from 12 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "1 patch · 7×36 auto from 12 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 74286,
+   "triangles": 148616,
+   "nonManifoldEdges": 0,
+   "components": [
+    121704,
+    14480,
+    12432
+   ],
+   "parts": [
+    {
+     "triangles": 121704,
+     "volume": 19.834
+    },
+    {
+     "triangles": 14480,
+     "volume": -0.718
+    },
+    {
+     "triangles": 12432,
+     "volume": -0.807
+    }
+   ],
+   "loose": 0,
+   "volume": 18.309337774323406,
+   "bounds": [
+    -8.406888008117676,
+    -1.048215389251709,
+    -2.199941873550415,
+    0.19915379583835602,
+    2.110056161880493,
+    2.199941873550415
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Butterfly",
+  "slug": "06-scalloped-butterfly",
+  "kind": "insects",
+  "file": "examples/insects/06-scalloped-butterfly.json",
+  "description": "Broad wings with a scalloped margin and clubbed antennae.",
+  "color": "#d9a05b",
+  "nodes": 67,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 16×55 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 16×55 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 20×70 auto from 20 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 20×70 auto from 20 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 17×53 auto from 16 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 17×53 auto from 16 ribs · 2 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 79404,
+   "triangles": 158852,
+   "nonManifoldEdges": 0,
+   "components": [
+    150812,
+    4396,
+    3644
+   ],
+   "parts": [
+    {
+     "triangles": 150812,
+     "volume": 21.02
+    },
+    {
+     "triangles": 4396,
+     "volume": -0.238
+    },
+    {
+     "triangles": 3644,
+     "volume": -0.13
+    }
+   ],
+   "loose": 0,
+   "volume": 20.652771077934702,
+   "bounds": [
+    -6.013058662414551,
+    -2.1140427589416504,
+    -5.465577125549316,
+    0.19998563826084137,
+    2.1140363216400146,
+    5.465577125549316
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Bee",
+  "slug": "07-banded-bee",
+  "kind": "insects",
+  "file": "examples/insects/07-banded-bee.json",
+  "description": "A sawtooth profile bands the abdomen; the hind legs carry pollen baskets.",
+  "color": "#d4a63c",
+  "nodes": 60,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 31×64 auto from 16 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 31×64 auto from 16 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 7×34 auto from 18 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 7×34 auto from 18 ribs · 2 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 118644,
+   "triangles": 237292,
+   "nonManifoldEdges": 0,
+   "components": [
+    171728,
+    65100,
+    88,
+    88,
+    72,
+    72,
+    72,
+    72
+   ],
+   "parts": [
+    {
+     "triangles": 171728,
+     "volume": 22.124
+    },
+    {
+     "triangles": 65100,
+     "volume": -5.187
+    },
+    {
+     "triangles": 88,
+     "volume": 0
+    },
+    {
+     "triangles": 88,
+     "volume": 0
+    },
+    {
+     "triangles": 72,
+     "volume": 0
+    },
+    {
+     "triangles": 72,
+     "volume": 0
+    },
+    {
+     "triangles": 72,
+     "volume": 0
+    },
+    {
+     "triangles": 72,
+     "volume": 0
+    }
+   ],
+   "loose": 0,
+   "volume": 16.9370314711328,
+   "bounds": [
+    -7.15777063369751,
+    -1.2900432348251343,
+    -3.9036974906921387,
+    0.19945302605628967,
+    1.2903807163238525,
+    3.9036996364593506
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Mantis",
+  "slug": "08-cathedral-mantis",
+  "kind": "insects",
+  "file": "examples/insects/08-cathedral-mantis.json",
+  "description": "A long prothorax and raptorial forelegs snapped shut against heavy femora.",
+  "color": "#9bb87f",
+  "nodes": 53,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 23×116 auto from 22 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 23×116 auto from 22 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 77690,
+   "triangles": 155376,
+   "nonManifoldEdges": 0,
+   "components": [
+    151360,
+    4016
+   ],
+   "parts": [
+    {
+     "triangles": 151360,
+     "volume": 9.047
+    },
+    {
+     "triangles": 4016,
+     "volume": -0.02
+    }
+   ],
+   "loose": 0,
+   "volume": 9.026978933806419,
+   "bounds": [
+    -6.403707504272461,
+    -4.7423882484436035,
+    -2.7878336906433105,
+    0.21427814662456512,
+    2.441847801208496,
+    2.7878358364105225
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Spider",
+  "slug": "09-globe-spider",
+  "kind": "insects",
+  "file": "examples/insects/09-globe-spider.json",
+  "description": "Eight long legs off a pinched cephalothorax, under a near-spherical abdomen.",
+  "color": "#6f6257",
+  "nodes": 43,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 26×48 auto from 16 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 26×48 auto from 16 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 129192,
+   "triangles": 258428,
+   "nonManifoldEdges": 0,
+   "components": [
+    210124,
+    32096,
+    16208
+   ],
+   "parts": [
+    {
+     "triangles": 210124,
+     "volume": 19.979
+    },
+    {
+     "triangles": 32096,
+     "volume": -3.134
+    },
+    {
+     "triangles": 16208,
+     "volume": -0.459
+    }
+   ],
+   "loose": 0,
+   "volume": 16.3865619132335,
+   "bounds": [
+    -6.095165729522705,
+    -1.305841326713562,
+    -3.254154682159424,
+    1.2520837783813477,
+    1.9167873859405518,
+    3.254154920578003
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Cicada",
+  "slug": "10-tent-cicada",
+  "kind": "insects",
+  "file": "examples/insects/10-tent-cicada.json",
+  "description": "Wings rolled by a twist into a tent over the back, above a broad head.",
+  "color": "#8fa08c",
+  "nodes": 57,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 28×55 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 28×55 auto from 14 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "2 patches · 10×59 auto from 24 ribs · 2 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "2 patches · 10×59 auto from 24 ribs · 2 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 64580,
+   "triangles": 129180,
+   "nonManifoldEdges": 0,
+   "components": [
+    106816,
+    22364
+   ],
+   "parts": [
+    {
+     "triangles": 106816,
+     "volume": 25.819
+    },
+    {
+     "triangles": 22364,
+     "volume": -3.358
+    }
+   ],
+   "loose": 0,
+   "volume": 22.461508137441673,
+   "bounds": [
+    -6.606052875518799,
+    -1.2575080394744873,
+    -6.168459892272949,
+    0.19987964630126953,
+    1.2574552297592163,
+    6.167436122894287
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Stick insect",
+  "slug": "11-twig-stick-insect",
+  "kind": "insects",
+  "file": "examples/insects/11-twig-stick-insect.json",
+  "description": "Forty body joints of nearly constant radius with a slow noise wobble.",
+  "color": "#a8a08c",
+  "nodes": 38,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 11×227 auto from 40 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 11×227 auto from 40 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 18352,
+   "triangles": 36708,
+   "nonManifoldEdges": 0,
+   "components": [
+    36708
+   ],
+   "parts": [
+    {
+     "triangles": 36708,
+     "volume": 9.529
+    }
+   ],
+   "loose": 0,
+   "volume": 9.529451496957986,
+   "bounds": [
+    -18.70026206970215,
+    -0.2907649278640747,
+    -5.1501593589782715,
+    1.6279642581939697,
+    2.291668176651001,
+    5.1502227783203125
+   ],
+   "unioned": true
+  },
+  "errors": []
+ },
+ {
+  "name": "Stag beetle",
+  "slug": "12-antler-stag-beetle",
+  "kind": "insects",
+  "file": "examples/insects/12-antler-stag-beetle.json",
+  "description": "Mandibles as antlers: a curving chain that sprouts its own tines.",
+  "color": "#5f4a3a",
+  "nodes": 61,
+  "patches": [
+   {
+    "title": "Loft 0",
+    "info": "1 patch · 29×73 auto from 15 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft 1",
+    "info": "1 patch · 29×73 auto from 15 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft L",
+    "info": "1 patch · 13×44 auto from 11 ribs · 1 parent groups"
+   },
+   {
+    "title": "Loft R",
+    "info": "1 patch · 13×44 auto from 11 ribs · 1 parent groups"
+   }
+  ],
+  "validation": {
+   "finite": true,
+   "vertices": 120984,
+   "triangles": 242068,
+   "nonManifoldEdges": 0,
+   "components": [
+    160076,
+    81992
+   ],
+   "parts": [
+    {
+     "triangles": 160076,
+     "volume": 34.837
+    },
+    {
+     "triangles": 81992,
+     "volume": -7.63
+    }
+   ],
+   "loose": 0,
+   "volume": 27.206987814720936,
+   "bounds": [
+    -9.439202308654785,
+    -1.346252202987671,
+    -3.3079285621643066,
+    0.2484523057937622,
+    1.4369902610778809,
+    3.3079283237457275
+   ],
+   "unioned": true
+  },
+  "errors": []
+ }
+]
